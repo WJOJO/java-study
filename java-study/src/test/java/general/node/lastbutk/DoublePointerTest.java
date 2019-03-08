@@ -1,7 +1,5 @@
 package general.node.lastbutk;
 
-import static org.junit.Assert.*;
-
 import org.junit.Test;
 
 import general.node.Node;

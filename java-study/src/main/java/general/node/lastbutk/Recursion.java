@@ -4,8 +4,8 @@ import general.node.Node;
 
 /**
  * 
- * 递归法
- * @author Administrator
+ * 递归法 找到单链表倒数第K个节点
+ * @author javon
  *
  * @param <E>
  */

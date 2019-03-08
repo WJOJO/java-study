@@ -29,6 +29,10 @@ public class Node<E> {
 		this.next = next;
 	}
 
+	public Node() {
+		super();
+	}
+
 
 	
 	
