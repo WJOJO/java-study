@@ -26,6 +26,7 @@ public class CircleLength {
 		
 		Node<E> slow = firstMeetingNode;
 		Node<E> fast = firstMeetingNode;
+		
 		for(int i = 1; ; i++){
 			slow = slow.getNext();
 			fast = fast.getNext().getNext();
@@ -33,7 +34,6 @@ public class CircleLength {
 				return i;
 			}
 		}
-		
 	}
 	
 
