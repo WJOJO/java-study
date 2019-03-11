@@ -2,6 +2,7 @@ package general.node.lastbutk;
 
 import org.junit.Test;
 
+import general.node.AbstractTest;
 import general.node.Node;
 
 public class DoublePointerTest extends AbstractTest{

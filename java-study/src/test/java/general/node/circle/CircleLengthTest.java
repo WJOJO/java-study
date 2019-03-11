@@ -2,7 +2,7 @@ package general.node.circle;
 
 import org.junit.Test;
 
-import general.node.lastbutk.AbstractTest;
+import general.node.AbstractTest;
 
 public class CircleLengthTest extends AbstractTest{
 

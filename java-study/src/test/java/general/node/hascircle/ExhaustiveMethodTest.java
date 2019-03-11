@@ -2,7 +2,7 @@ package general.node.hascircle;
 
 import org.junit.Test;
 
-import general.node.lastbutk.AbstractTest;
+import general.node.AbstractTest;
 
 public class ExhaustiveMethodTest extends AbstractTest {
 

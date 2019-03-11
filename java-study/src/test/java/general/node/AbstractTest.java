@@ -1,4 +1,6 @@
-package general.node.lastbutk;
+package general.node;
+
+import java.util.Random;
 
 import org.junit.Before;
 
@@ -8,6 +10,9 @@ public class AbstractTest {
 
 	protected Node<String> root;
 	protected Node<String> rootCircle;
+	
+	protected Node<Integer> compariableNode1;
+	protected Node<Integer> compariableNode2;
 	
 	
 	@Before
@@ -29,6 +34,33 @@ public class AbstractTest {
 		Node<String> A1 = new Node<String>("2", B1);
 		rootCircle = new Node<String>("1", A1);
 		
+		compariableNode1 = create(10);
+		compariableNode2 = create(30);
+		
+		
+		
+	}
+	
+	
+	
+	public Node<Integer> create(int n){
+		Node<Integer> head = new Node<Integer>(1, null);
+		Node<Integer> node = head;
+		for (int i = 2; i < n; i++) {
+			Node<Integer> node2 = new Node<Integer>(i + 2, null);
+			node.setNext(node2);
+			node = node2;
+		}
+		return head;
+	}
+	
+	public <E> void print(Node<E> node){
+		System.out.print(node.getValue() + " ");
+		while(node.getNext()!=null){
+			node = node.getNext();
+			System.out.print(node.getValue() + " ");
+		}
+		System.out.println();
 	}
 	
 }
