@@ -12,7 +12,7 @@ package general.leetcode;
 public class Question473 {
 
 	public boolean makesquare(int[] nums) {
-		if((nums.length & 3) != 3)
+//		if((nums.length & 3) != 3)
 			return false;
 		
 	}
