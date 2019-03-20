@@ -11,6 +11,12 @@ package general.leetcode;
  */
 public class Question4 {
 	
+    /**
+     * leetcodeÌâ½â·¨
+     * @param nums1
+     * @param nums2
+     * @return
+     */
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m = nums1.length;
         int n = nums2.length;
