@@ -1,4 +1,4 @@
-package general.leetcode;
+package general.leetcode.stack.practice;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -15,7 +15,7 @@ import java.util.Stack;
  * @param <E>
  *
  */
-public class Question20 {
+public class Q20_ValidParentheses {
 	/**
 	 * map和stack组合使用
 	 * @param s
@@ -43,7 +43,7 @@ public class Question20 {
 	
 	public static void main(String[] args) {
 		String s = "()[]{}";
-		Question20 question20 = new Question20();
+		Q20_ValidParentheses question20 = new Q20_ValidParentheses();
 		boolean valid = question20.isValid(s);
 		System.out.println(valid);
 	}
