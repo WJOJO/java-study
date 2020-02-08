@@ -11,15 +11,13 @@ import java.util.Arrays;
  *
  */
 public class Question16 {
-	public int threeSumClosest(int[] nums, int target) {
+	private int threeSumClosest(int[] nums, int target) {
         Arrays.sort(nums);
         int diff = Integer.MAX_VALUE;
         for (int i = 0; i < nums.length-2; i++) {
-        	int m = 1;
+        	int m = i + 1;
         	int n = nums.length - 1;
 			while(m < n){
-				if(m == i){	m++; continue;}
-				if(n == i){	n--; continue;}
 				int sum = nums[i] + nums[m] + nums[n];
 				if(sum < target)
 					m++;
