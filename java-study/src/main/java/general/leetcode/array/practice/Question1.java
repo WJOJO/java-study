@@ -1,4 +1,4 @@
-package general.leetcode;
+package general.leetcode.array.practice;
 
 /**
  * 1. 两数之和
